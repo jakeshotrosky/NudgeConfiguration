@@ -4,9 +4,14 @@
 			"us.zoom.xos"
 		],
 		"aggressiveUserExperience": true,
-		"asyncronousSoftwareUpdate": false,
 		"attemptToFetchMajorUpgrade": false,
-		"enforceMinorUpdates": true
+		"enforceMinorUpdates": true,
+                "aggressiveUserFullScreenExperience": false,
+                "acceptableScreenSharingUsage": true,
+                "acceptableAssertionUsage": true,
+                "acceptableAssertionApplicationNames": [
+                    "zoom.us"
+                ]
 	},
 	"osVersionRequirements": [
 		{
