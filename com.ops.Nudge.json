@@ -1,0 +1,82 @@
+{
+	"optionalFeatures": {
+		"acceptableApplicationBundleIDs": [
+			"us.zoom.xos"
+		],
+		"aggressiveUserExperience": true,
+		"asyncronousSoftwareUpdate": false,
+		"attemptToFetchMajorUpgrade": false,
+		"enforceMinorUpdates": true
+	},
+	"osVersionRequirements": [
+		{
+		"aboutUpdateURLs": [
+			{
+			"_language": "en",
+			"aboutUpdateURL": "https://developer.apple.com/documentation/macos-release-notes/"
+			}
+		],
+		"majorUpgradeAppPath": "/Applications/Install macOS Big Sur.app",
+		"requiredInstallationDate": "2022-08-30T23:00:00Z",
+		"requiredMinimumOSVersion": "11.6.8",
+		"targetedOSVersionsRule": "11"
+		},
+		{
+		"aboutUpdateURLs": [
+			{
+			"_language": "en",
+			"aboutUpdateURL": "https://developer.apple.com/documentation/macos-release-notes/"
+			}
+		],
+		"majorUpgradeAppPath": "/Applications/Install macOS Monterey.app",
+		"requiredInstallationDate": "2022-08-30T23:00:00Z",
+		"requiredMinimumOSVersion": "12.5.1",
+		"targetedOSVersionsRule": "12"
+		}
+	],
+	"userExperience": {
+		"allowUserQuitDeferrals": true,
+		"allowedDeferrals": 1000000,
+		"allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+		"approachingRefreshCycle": 6000,
+		"approachingWindowTime": 72,
+		"elapsedRefreshCycle": 300,
+		"imminentRefreshCycle": 600,
+		"imminentWindowTime": 24,
+		"initialRefreshCycle": 18000,
+		"maxRandomDelayInSeconds": 1200,
+		"noTimers": false,
+		"nudgeRefreshCycle": 60,
+		"randomDelay": false
+	},
+	"userInterface": {
+		"fallbackLanguage": "en",
+		"forceFallbackLanguage": false,
+		"forceScreenShotIcon": false,
+		"iconDarkPath": "",
+		"iconLightPath": "",
+		"screenShotDarkPath": "",
+		"screenShotLightPath": "",
+		"showDeferralCount": true,
+		"simpleMode": false,
+		"singleQuitButton": false,
+		"updateElements": [
+		{
+			"_language": "en",
+			"actionButtonText": "Update Device",
+			"customDeferralButtonText": "Other",
+			"informationButtonText": "More Info",
+			"mainContentHeader": "Your device will restart during this update",
+			"mainContentNote": "An Important Note for macOS 11 Big Sur users",
+			"mainContentSubHeader": "Updates can take around 30 minutes to complete",
+			"mainContentText": "You CAN update your mac WITHOUT upgrading to macOS 12 Monterey!\n\nClick the Update Device button above.\nThis will launch the Software Update window.\n\nAt the Software Update window, do the following...\n\n1. Click the More Info link under \"Other updates are available\" instead of the Upgrade Now button.\n2. Review the Updates available for your mac and click the Install Now button.\n\n-------------------\n\nEveryone else can click the Update Device button above and proceed through the update process normally by following the prompts.",
+			"mainHeader": "macOS Update",
+			"oneDayDeferralButtonText": "One Day",
+			"oneHourDeferralButtonText": "One Hour",
+			"primaryQuitButtonText": "Later",
+			"secondaryQuitButtonText": "I understand",
+			"subHeader": "A friendly reminder from your local Operations team"
+		}
+		]
+	}
+}
